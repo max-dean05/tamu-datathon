@@ -19,7 +19,7 @@ from market_env import MarketConfig, TotalsMarketEnv
 
 # Action indices: 0=-1, 1=-0.5, 2=hold, 3=+0.5, 4=+1
 OBS = {name: i for i, name in enumerate(TotalsMarketEnv.OBS_NAMES)}
-TRAIN_SEASONS = range(2014, 2023)   # pre-2023 clock rule change
+TRAIN_SEASONS = range(2013, 2023)   # pre-2023 clock rule change
 TEST_SEASONS = range(2023, 2027)
 
 
