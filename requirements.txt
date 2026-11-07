@@ -1,0 +1,7 @@
+cfbd>=5.0
+numpy
+pandas
+scipy
+gymnasium>=0.29
+stable-baselines3>=2.3
+matplotlib
